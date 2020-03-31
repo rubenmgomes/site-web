@@ -1,0 +1,258 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: 'Roboto Slab', serif;
+}
+
+html, body{
+    width: 100%;
+    min-height: 100%;
+}
+
+a:hover{
+    color: #6395EC;
+    text-decoration: none;
+}
+
+/* ====================
+    geral
+===================== */
+
+.container{
+    max-width: 100%;
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
+/* ====================
+    home
+===================== */
+
+.home{
+    margin-top: 90px;
+}
+
+.home-box{
+    height: 274px;
+    width: 100%;
+    border: 5px solid #6395EC;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 60px;
+    line-height: 70px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #6395EC;
+    font-weight: bold;
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
+
+.home-box.box-back{
+    background: #654FBE;
+    border: none;
+    text-align: center;
+    width: 100%;
+}
+
+.home-box a{
+    width: 100%;
+    text-align: center;
+    color: #6395EC;
+    font-weight: bold;
+    font-size: 18px; 
+}
+
+/* ====================
+    trabalhos
+===================== */
+
+.article{
+    border: 5px solid #6395EC;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+
+/* ====================
+    mobile
+===================== */
+
+@media (max-width: 768px) {
+    .container{
+        padding-left: 45px;
+        padding-right: 45px;
+    }
+
+    .home-box{
+        height: 210px;
+        width: 100%;
+        border: 5px solid #6395EC;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        font-size: 36px;
+        line-height: 47px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #6395EC;
+        font-weight: bold;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .box-small{
+        height: 150px;
+    }
+}
+/* ====================
+    trabalhos
+===================== */
+
+header{
+	width: 100%;
+	height: 90px;
+
+}
+
+h1{
+	margin-top: 15px;
+	height: 60px;
+	width: auto;
+	text-align: center;
+	color: rgba(99, 149, 236, 1);
+    font-size: 55px;
+    font-weight: bold;
+    font-family: 'Roboto Slab', serif;
+}
+
+/* ====================
+    section.left
+===================== */
+section.left{
+	width: 50%;
+	height: 450px;
+	float: left;
+	padding: 70px;
+	font-size: 19px;
+	font-weight: 400;
+    font-family: 'Roboto Slab', serif;
+    text-align: justify;
+}
+
+h2{
+	height: 60px;
+	color: rgba(99, 149, 236, 1);
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Roboto Slab', serif;
+    word-spacing: 20px;
+}
+
+#P1{
+    margin-top: 30px;
+}
+
+/* ====================
+    section.right
+===================== */
+section.right{
+	width: 50%;
+	height: 400px;
+	float: right;
+    padding: 50px;
+    margin-top: 34%;
+	font-size: 19px;
+	font-weight: 400;
+    font-family: 'Roboto Slab', serif;
+    text-align: justify;
+}
+
+footer{
+	margin-top: 750px;
+	width: 100%;
+    height: 90px;
+}
+
+#logo{
+	float: right;
+	margin-right: 50px;
+}
+
+#P2{
+    margin-top: 30px;
+}
+
+#P3{
+    margin-top: 30px;
+}
+
+#P4{
+    margin-top: 30px;
+}
+
+
+/*===================
+        sobre
+====================*/
+
+header{
+	width: 100%;
+	height: 90px;
+
+}
+
+#estudio{
+	margin-top: 30px;
+
+}
+
+section.left{
+	width: 50%;
+	height: 450px;
+	float: left;
+	padding: 70px;
+	font-size: 20px;
+	font-weight: 400;
+	font-family: 'Roboto Slab', serif;
+}
+
+#logo{
+	float: right;
+	margin-right: 50px;
+}
+
+
+footer{
+	margin-top: 750px;
+	width: 100%;
+	height: 90px;
+}
+
+/* ====================
+    contactos
+===================== */
+
+h3{
+	margin-top: 50px;
+    height: 60px;
+    width: auto;
+	text-align: center;
+	color: rgba(99, 149, 236, 1);
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+    
+}
+
+h4{
+	margin-top: 50px;
+    height: 60px;
+    width: auto;
+	text-align: center;
+	color: rgba(99, 149, 236, 1);
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Roboto Slab', serif;
+}
